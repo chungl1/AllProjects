@@ -1,5 +1,3 @@
-# import timeOperation as t
-
 class Vehicle:
 
     def __init__(self, speed, routeNum):
@@ -46,3 +44,9 @@ class Vehicle:
 
     def getRouteTime(self):
         return self.rTime
+
+    def addTime(self, time):
+        self.rTime += time
+
+    def subTime(self, time):
+        self.rTime -= time

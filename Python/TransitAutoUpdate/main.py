@@ -2,7 +2,7 @@ from vehicle import Vehicle
 
 def main():
 
-    v = Vehicle(10,12)
+    v = Vehicle(10,11)
 
     print(v.getRouteNum(), v.getRouteTime())
 
